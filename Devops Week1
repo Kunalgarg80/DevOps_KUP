@@ -1,0 +1,97 @@
+Day 0
+
+Q. what are monolithic and microservices?
+
+- Monolithic architecture is built as one large system and is usually one code-baseIt has shared database
+- Microservices architecture is built as small independent module based on business functionality
+  Each project and module has their own database
+
+Q. what are spirits?
+
+- sprint is a set period of time during which specific work has to be completed and made ready for review.Each sprint begins with a planning meeting
+
+Q.difference between agile and DevOps? 
+
+Agile	,DevOps - Agile refers to an iterative approach which focuses on collaboration, customer feedback, and small, rapid releases.	DevOps is considered a practice of bringing development and operations teams together.
+Purpose  =	Agile helps to manage complex projects.	DevOps central concept is to manage end-to-end engineering processes.
+Task =	Agile process focusses on constant changes.	DevOps focuses on constant testing and delivery.
+
+Day 1
+
+Q.Features of kernel?
+
+- A core feature of any operating system, the kernel manages communication between hardware and software. The kernel is responsible for managing memory, and I/O to memory, cache, the hard drive, and other devices. It also handles device signals, task scheduling, and other essential duties.
+
+Q. difference between linux and windows operating system?
+
+	Linux                                          	                                   Windows
+1.	Linux is a open source operating system.	                       While windows are the not the open source operating system.
+2.	Linux is free of cost.	                                              While it is costly.
+3.	It’s file name case-sensitive.	                               While it’s file name is case-insensitive.
+4.	In linux, monolithic kernel is used.	                               While in this, micro kernel is used.
+5.	Linux is more efficient in comparison of windows.	                While windows are less efficient.
+6.	There is forward slash is used for Separating the directories.	While there is back slash is used for Separating the directories.
+7.	Linux provides more security than windows.	                        While it provides less security than linux.
+
+ Q. What do you mean by opensource?
+
+ Open source software is code that is designed to be publicly accessible—anyone can see, modify.
+ 
+ Q. Explain the output of "ls -l" command
+ 
+ It give the list of the following directory.
+ 
+ Q. How to create multipple files with single command?
+ 
+ touch file1 file2 file3
+ 
+ Q.  Where are unit files located?
+ 
+ /usr/lib/systemd
+ 
+ Q. What are an absolute path and relative path?
+ Absolute path is exact path where we want to go and relative path is present path
+ 
+ Q. What are hard links?
+ 
+ Hard link are just like copy of that file with same Inodes .
+ 
+ Q. After ll command what is the arrow indicates to and what it is pointing to?
+ 
+ It show the complete detail of files present in that directory . 
+ 
+ Q. What does srv contain and why is it empty?
+ 
+ In this service data is stored i.e. if u want to run the web server , you will store the file here .
+ 
+ Q.What does the mnt directory contain?
+ 
+ temporary mount points for mounting storage devices, such as CDROMs, floppy disks and USB , key drives.
+
+ Q. How does cgroup be different from namespace?
+
+  cgroups limit you use 
+  namespace limit what you can use 
+
+ Q.In vim how can we search inside the file?
+  /search 
+
+ Q.How to delete files in vim editor?
+
+  Shift+d and then y
+
+ Q. Difference between wq and x? 
+  wq = save and exit 
+  x = exit without save
+
+ Q.what are hidden files in linux
+
+ files used in order to execute some scripts or to store configuration about some services on your host.
+
+ Q.How to identify which type of file is this?
+  ls -lah
+
+ Q. Why lib,lib64 is in a different color?
+
+ Files that can be used for various functions
+ chang in color may depends upon link, directory, image etc.
